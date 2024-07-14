@@ -1,0 +1,18 @@
+name: Issue
+description: Issue to work on for Presentation
+title: "[Issue]: "
+labels: ["issue"]
+assignees:
+  - ryancheley
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue to work on for Presentation
+  - type: textarea
+    id: issue-text
+    attributes:
+      label: Issue
+      description: Enter short description of the issue
+    validations:
+      required: true
