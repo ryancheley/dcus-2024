@@ -1,6 +1,8 @@
 # Error Culture
 
-## Introduction
+---
+
+# Introduction
 
 - I'm Ryan Cheley
 - I'm the Senior Regional Director of Business Informatics ... but that just means I'm a Director of Enginnering
@@ -10,20 +12,28 @@
     - mastadon
     - linkedin
 
-## Error Culture
+---
 
-^ notes: today I'm going to be talking about Error Culture. Specifically what it is, how to tell if you're in an orgnization that suffers from it, and how to get out it
+# Error Culture
 
-## What is it?
+^ notes: welcome to my talk 'Error Culter'. Today I'm going to be talking about Error Culture. Specifically what it is, how to tell if you're in an orgnization that suffers from it, and how to get out it
+
+# What is it?
 
 > A culture that accepts error notifications and ignores them, encouraging a reactive instead of proactive culture of problem solving
 
-## Why is it bad? 
+# Why is it bad? 
 
 - Encourages the creationg of low signal to noise ratio for alerting
 - allows **potentially** really bad problems to not be fixed until they are really bad: [See](https://miro.medium.com/v2/resize:fit:854/format:webp/1*QQvTuD-5AH2NKdh1_B_teQ.jpeg)
 
-## Why does it happen?
+# Hero Culture
+
+![We have a problem here!](https://miro.medium.com/v2/resize:fit:854/format:webp/1*QQvTuD-5AH2NKdh1_B_teQ.jpeg)
+
+---
+
+# Why does it happen?
 
 - Error Fatigue
 - Lack of Understanding of 
@@ -32,9 +42,13 @@
     - who it impacts
 - Emphasis on Hero Culture, [see](https://naksecurity.medium.com/the-detriments-of-hero-culture-3fc455963d6e)
 
-## Who does this happen to?
+---
 
-### People in Tech
+# Who does this happen to?
+
+---
+
+# People in Tech
 
 - Developers
 - Help Desk
@@ -43,7 +57,9 @@
 
 ^ notes: Since we're at a tech conference, the obvious answer is folks in tech. This can be ....
 
-### Office workers
+---
+
+# Office workers
 
 - Administrative Assistants
 - Data Anlysts
@@ -52,9 +68,16 @@
 
 ^ notes: but you might not realize this has the potential to happen in other areas of life as well. 
 
-## When does it start
+---
 
-### Internal
+# When does it start?
+
+- Internal Reasons
+- External Reasons
+
+---
+
+# Internal
 
 - When someone decides that ‘we’ need to be notified of when ‘this’ happens again
     - Example here
@@ -63,14 +86,18 @@
 - When too many alerts are created without context for what the errors are
     - Example here
 
-### External
+---
+
+# External
 
 - When a consultant indicates that it is ‘best practice’ to be notified of an alert but doesn’t provide more context
     - Example here
 - When defaults for external software come with enabled alerts but no context or steps for resolution
     - Example here
 
-## How can I tell if I'm in an error culture
+---
+
+# How can I tell if I'm in an error culture
 
 - Do you receive emails or alerts from no-reply style email addresses that you have email rules that just delete them?
     - Example here
@@ -83,11 +110,15 @@
 
 Any of these can point to you being part of an Error Culture.
 
-## What can be done to fix it? 
+---
+
+# What can be done to fix it? 
 
 No matter where you are in the 'ladder' at work (i.e. IC, or CTO) you can make a change
 
-### Start here
+---
+
+# Start here
 
 Is the alert you are getting Actually Important? 
 
@@ -97,7 +128,9 @@ Not just the alert, but the mechanism for the alert
 
 Be mindful of Chesteron's fence here though! 
 
-### It is important
+---
+
+# It is important
 
 But is it actionable? 
 
@@ -115,7 +148,12 @@ If NO
     - Update the alert to indicate it’s importance
     - Update the alert to go to the correct people
 
-## Resources
+---
 
-## Questions
+# Resources
 
+---
+
+# Questions
+
+Questions? 
