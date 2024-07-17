@@ -1,6 +1,7 @@
 build-lists: true
-footer: footer text
+footer: Error Culture
 slidenumbers: true
+autoscale: true
 
 # Error Culture
 
@@ -26,66 +27,20 @@ slidenumbers: true
 
 ---
 
-> A culture that **accepts** error notifications and **ignores** them, encouraging a **reactive** instead of **proactive** culture of problem solving
+> A culture that **accepts** error notifications and **ignores** them, encouraging a **reactive**, instead of **proactive** culture of problem solving
 
 ---
 
 # Why is it bad? 
 
-- Encourages the creationg of low signal to noise ratio for alerting
-- allows **potentially** really bad problems to not be fixed until they are really bad
-- It can encourage 'Hero Culture'
+- Signal : Noise Ratio
+- waiting until it hits the fan
+
+^notes: Encourages the creationg of low signal to noise ratio for alerting
+^notes: **potentially** problems to not be fixed until they are bad problems
 
 ---
 
-# Hero Culture Slide
-
-![inline](../images/slide1.png)
-
-^notes: we find our hero finding a problem
-
----
-# Hero Culture Slide
-
-![inline](../images/slide2.png)
-
-^notes: we find our hero watching the problem get bigger
-
----
-# Hero Culture Slide
-
-![inline](../images/slide3.png)
-
-^notes: and bigger
-
----
-# Hero Culture Slide
-
-![inline](../images/slide4.png)
-
-^notes: our hero notifies everyone about the problem
-
----
-# Hero Culture Slide
-
-![inline](../images/slide5.png)
-
-^notes: our hero fixes the problem
-
----
-# Hero Culture Slide
-
-![inline](../images/slide6.png)
-
-^notes: our hero is recognized for their efforts; how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? 
-
----
-
-# Why does it happen?
-
-- Error Fatigue
-
----
 # Why does it happen?
 
 - Lack of Understanding of 
@@ -97,7 +52,48 @@ slidenumbers: true
 
 # Why does it happen?
 
-- Emphasis on Hero Culture, [see](https://naksecurity.medium.com/the-detriments-of-hero-culture-3fc455963d6e)
+- Error Fatigue
+
+---
+
+# Why does it happen?
+
+- Emphasis on Hero Culture
+
+---
+
+![inline](../images/slide1.png)
+
+^notes: we find our hero finding a problem
+
+---
+![inline](../images/slide2.png)
+
+^notes: we find our hero watching the problem get bigger
+
+---
+
+![inline](../images/slide3.png)
+
+^notes: and bigger
+
+---
+
+![inline](../images/slide4.png)
+
+^notes: our hero notifies everyone about the problem
+
+---
+
+![inline](../images/slide5.png)
+
+^notes: our hero fixes the problem
+
+---
+
+![inline](../images/slide6.png)
+
+^notes: our hero is recognized for their efforts; how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? 
 
 ---
 
@@ -120,7 +116,7 @@ slidenumbers: true
 
 - Administrative Assistants
 - Data Anlysts
-- Account Maangers
+- Account Managers
 - C Suite Execs
 
 ^ notes: but you might not realize this has the potential to happen in other areas of life as well. 
@@ -142,85 +138,135 @@ slidenumbers: true
 
 # Internal
 
-- When someone decides that ‘we’ need to be notified of when ‘this’ happens again
-    - Example here
----
+- Example here
 
-# Internal
+^ When someone decides that ‘we’ need to be notified of when ‘this’ happens again
 
-- When an alert is created because it ‘might’ be useful but doesn’t provide full context for why
-    - Invalid Zip Code Alert
 
 ---
 
 # Internal
 
-- When too many alerts are created without context for what the errors are
-    - Example here
+- Insert alert / image here
+- Invalid Zip Code Alert
+
+^ When an alert is created because it ‘might’ be useful but doesn’t provide full context for why
+
+---
+
+# Internal
+
+- Example here
+
+^ When too many alerts are created without context for what the errors are
 
 ---
 
 
 # External
 
-- When a consultant indicates that it is ‘best practice’ to be notified of an alert but doesn’t provide more context
-    - Example here
+- Example here
+
+^ When a consultant indicates that it is ‘best practice’ to be notified of an alert but doesn’t provide more context
+
 
 ---
 
 # External
 
-- When defaults for external software come with enabled alerts but no context or steps for resolution
-    - Example here
+- Example here
+
+^ When defaults for external software come with enabled alerts but no context or steps for resolution
+
 
 ---
 
-# How can I tell if I'm in an error culture
+# How can I tell ...
+
+^ if I'm in an error culture
 
 ---
 
 # Question 1
 
-- Do you receive emails or alerts from no-reply style email addresses that you have email rules that just delete them?
-    - Example here
+- Example of an email from a no-reply email address
+
+^ Do you receive emails or alerts from no-reply style email addresses where your first reaction is to just delete them
 
 ---
 
 # Question 2
 
-- Do you receive emails or alerts from no-reply style email addresses where your first reaction is to just delete them
-    - Example here
+- Example of an email from a no-reply email address with the rule that just deletes it
+
+^ Do you get 'smart' and create a rule to get rid of that email so you don't have to see it any more? 
 
 ---
 
 # Question 3
 
-- Do you see others around you put out fires that you knew were coming?
-    - Example here
+- The fangledorn is klapfachta
+
+^ the example should show this ridiculous message and then 'zoom' out to show that it's sent to a distribution list, and then zoom out to show that the distribution list includes all of the developers 
+^ Do you know why you receive alerts or errors? 
 
 ---
 
 # Question 4
 
-- Do you know why you receive alerts or errors? 
-    - Example here
+- Example here
+
+![inline](../images/slide4.png)
+
+^ Do you see others around you put out fires that you knew were coming?
+
 
 ---
 
 # Am I there? 
 
-Any of these can point to you being part of an Error Culture.
+---
+
+# Spoiler Alert
+
+^ Spoiler alert: if any of these situations looked familiar then maybe you are
+
+---
+
+# If you answered 
+# Yes
+
+^ to one or more of the questions from before
 
 ---
 
 # What can be done to fix it? 
 
-No matter where you are in the 'ladder' at work (i.e. IC, or CTO) you can make a change
+- IC
+- CTO
+
+^ No matter where you are in the 'ladder' at work (i.e. IC, or CTO) you can make a change
 
 ---
 
-# Start here
+# Where to start?
 
+---
+
+# Ask Questions
+
+---
+
+# Is it important? 
+
+
+- Important
+- Delete it
+- It == Alert
+- It == Mechanism of the Alert
+
+
+^ notes: 
 - Is the alert you are getting Actually Important? 
 - If it is NOT important, delete it.
 - Not just the alert, but the mechanism for the alert
