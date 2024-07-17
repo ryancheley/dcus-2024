@@ -253,54 +253,181 @@ autoscale: true
 
 ---
 
+![inline](https://images.prismic.io/sketchplanations/4ad84bfb-f64d-4d8f-b726-6f2dabde2d19_SP+563+-+Chesterton%E2%80%99s+fence.png?auto=compress%2Cformat&fit=max&w=640&q=50)
+
+^ change should not be made until the reasoning behind the current state of affairs is understood
+
+---
+
 # Ask Questions
+
 
 ---
 
 # Is it important? 
 
+- No
+
+---
+
+# Delete It
+
+- Not Just the Alert
+- Mechanism of the Alert
+
+^ Don't just set up a rules to delete the alert, delete the mechanism that sends the alert
+
+
+---
+
+# Is it important? 
+
+- Yes
+
+^ This is great! We have an alert that *is* important
+
+---
+
+# Is it Actionable?
+
+^ What does an actionable alert look like? 
+
+---
+
+# In General
+
+- Verb
+
+---
+
+# Bad 
+
+Subject: Super Important Alert about Server! 
+Message: The server is unresponsive!
+
+---
+
+# Better
+
+Subject: Super Important Alert about Server! 
+Message: The server do-web-t-005 is unresponsive
+
+---
+
+# Best 
+
+Subject: Super Important Alert about Server! 
+Message: The server do-web-t-005 is unresponsive. To resolve this **do** X
+
+^ an actionable alert should have a verb in it ... i.e. the server is unresponse. To fix this, **reboot** the server ... The verb here is reboot
+
+---
+
+# Actionable Alert!
+
+^ we have an actionable alert now, but do we know WHY we have the alert? If not, we should determine the **WHY** and document it
+
+--- 
+
+# Why?
+
+- ... is it important? 
+
+^ knowing why an alert exists can help you to determine if it's still needed in the future
+
+---
+
+# Best
+
+Subject: Super Important Alert about Server! 
+Message: The server do-web-t-005 is unresponsive. To resolve this **do** X. 
+See [this link](https://www.example.com) for details on the alert.
+
+---
+
+# This Link (example 1)
+
+The server `do-web-t-005` is a test server on Digital Ocean. It is used for project ABC which is set to be retired on October 1, 2024
+
+^ hmmm ... maybe this alert isn't important anymore
+
+---
+
+# This Link (example 2)
+
+The server `do-web-t-005` is a production server on Digital Ocean. It is a mission critical server for claims payments
+
+^ oh no ... drop everything and get this taken care of now! 
+
+---
+
+# Who?
+
+- ... who should be notified? 
+
+^ - make sure the *right* people are being notified
+
+---
+
+# Wrong people
+
+- Claims team 
+- Business Analyst
+- Developer
+
+^ The Claims team and the Business Analyst can't do anything; given the security infrastructure, the developer might not be able to do anything either! 
+
+---
+
+# Right people
+
+- Server Admin
+
+^ this is a person that can actually perform the action of **do** from above
+
+---
+
+# Best
 
 - Important
-- Delete it
-- It == Alert
-- It == Mechanism of the Alert
+- Actionable
+- Right People
+
+^ The importance and action are documented in our Knowledge Management System
+
+--- 
+
+# Conclusion
+
+## Error Culture can feel 
+
+- Pervasive
+
+^ notes:
+Error Culture is / can be pervasive. 
+
+--- 
+
+# Conclusion
+
+## But you 
+
+- Can escape
+
+^ notes:
+But you CAN escape
 
 
-^ notes: 
-- Is the alert you are getting Actually Important? 
-- If it is NOT important, delete it.
-- Not just the alert, but the mechanism for the alert
-- Be mindful of Chesteron's fence here though! 
+--- 
 
----
+# Conclusion
 
-# Chesteron's Fence
+## By asking
 
-Explanation goes here
+- Questions
 
----
-
-# It is important
-
-But is it actionable? 
-
-If YES
-
-- Make sure the error indicates what needs to be fixed
-- make sure the error indicates why it's important
-- make sure the *right* people are being notified
-
-If NO
-
-- update it to be actionable
-- include
-    - Steps to resolution or documentation link for resolving the error
-    - Update the alert to indicate it’s importance
-    - Update the alert to go to the correct people
-
----
-
-# Resources
+^ notes:
+Ask questions to make sure that alerts are actionable, documented, and sent people that can actually resolve the problem! 
 
 ---
 
