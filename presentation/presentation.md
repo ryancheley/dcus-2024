@@ -10,34 +10,55 @@ autoscale: true
 # Introduction
 
 - I'm Ryan Cheley
-- I'm the Senior Regional Director of Business Informatics ... but that just means I'm a Director of Enginnering
-- You can find me here:
 
-    - website
-    - mastadon
-    - linkedin
+--- 
+
+# Introduction
+
+- Director of Enginnering
+
+^ notes: I'm the Senior Regional Director of Business Informatics ... but that just means I'm a 
 
 ---
 
 # Error Culture
 
-^ notes: welcome to my talk 'Error Culter'. Today I'm going to be talking about Error Culture. Specifically what it is, how to tell if you're in an orgnization that suffers from it, and how to get out it
+^ notes: Today I'm going to be talking about Error Culture. 
+
+---
+
+# What?
+
+^notes: Specifically what it is
+
+---
+
+# Am I in it?
+
+^ notes: how to tell if you're in an orgnization that suffers from it
+
+---
+# How do I get out of it? 
+
+^ notes: how to get out it
+
+---
 
 # What is it?
 
 ---
 
-> A culture that **accepts** error notifications and **ignores** them, encouraging a **reactive**, instead of **proactive** culture of problem solving
+A culture that **accepts** error notifications and **ignores** them, encouraging a **reactive**, instead of **proactive** culture of problem solving
 
 ---
 
 # Why is it bad? 
 
 - Signal : Noise Ratio
-- waiting until it hits the fan
+- waiting until it (💩) hits the fan
 
 ^notes: Encourages the creationg of low signal to noise ratio for alerting
-^notes: **potentially** problems to not be fixed until they are bad problems
+^notes: not fixing problem until they are big, bad problems
 
 ---
 
@@ -93,7 +114,7 @@ autoscale: true
 
 ![inline](../images/slide6.png)
 
-^notes: our hero is recognized for their efforts; how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? 
+^notes: our hero is recognized for their efforts; how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? which one is actually better for problem solving? 
 
 ---
 
@@ -107,6 +128,7 @@ autoscale: true
 - Help Desk Folks
 - Sys Admins
 - Network Admins
+- CTOs
 
 ^ notes: Since we're at a tech conference, the obvious answer is folks in tech. This can be ....
 
@@ -227,11 +249,14 @@ autoscale: true
 
 ---
 
+<!--
 # Spoiler Alert
 
 ^ Spoiler alert: if any of these situations looked familiar then maybe you are
 
+
 ---
+-->
 
 # If you answered 
 # Yes
@@ -428,6 +453,24 @@ But you CAN escape
 
 ^ notes:
 Ask questions to make sure that alerts are actionable, documented, and sent people that can actually resolve the problem! 
+
+---
+
+# Special Thanks
+
+- Adrienne Franke
+- Carolyn Zimmerman
+- Mario Munoz
+- Trey Hunner
+
+---
+
+# Find Me
+
+    - [website](https://ryancheley.com/)
+    - [mastadon](https://mastodon.social/@ryancheley)
+    - [linkedin](https://www.linkedin.com/in/ryan-cheley/)
+
 
 ---
 
