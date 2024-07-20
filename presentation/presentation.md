@@ -15,6 +15,15 @@ autoscale: true
 
 # Introduction
 
+- Senior Regional Director of Business Informatics
+
+^ notes: I'm the Senior Regional Director of Business Informatics ... but that just means I'm a 
+
+---
+
+# Introduction
+
+- ~~Senior Regional Director of Business Informatics~~
 - Director of Enginnering
 
 ^ notes: I'm the Senior Regional Director of Business Informatics ... but that just means I'm a 
@@ -33,12 +42,12 @@ autoscale: true
 
 ---
 
-# Am I in it?
+# Where?
 
 ^ notes: how to tell if you're in an orgnization that suffers from it
 
 ---
-# How do I get out of it? 
+# How?
 
 ^ notes: how to get out it
 
@@ -114,7 +123,13 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 
 ![inline](../images/slide6.png)
 
-^notes: our hero is recognized for their efforts; how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? which one is actually better for problem solving? 
+^notes: our hero is recognized for their efforts; 
+
+---
+
+![inline](../images/slide6.png)
+
+^notes: how many of you have ever been the person the the left? How many of you have been the person on the right? which one *feels* better? which one is actually better for problem solving? 
 
 ---
 
@@ -230,7 +245,7 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 - The fangledorn is klapfachta
 
 ^ the example should show this ridiculous message and then 'zoom' out to show that it's sent to a distribution list, and then zoom out to show that the distribution list includes all of the developers 
-^ Do you know why you receive alerts or errors? 
+Do you know why you receive alerts or errors? 
 
 ---
 
@@ -259,13 +274,24 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 -->
 
 # If you answered 
+
+---
+
 # Yes
 
 ^ to one or more of the questions from before
 
 ---
 
+# You're in an error culture
+
+---
+
 # What can be done to fix it? 
+
+---
+
+# Good news
 
 - IC
 - CTO
@@ -330,12 +356,16 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 Subject: Super Important Alert about Server! 
 Message: The server is unresponsive!
 
+^ Which server? 
+
 ---
 
 # Better
 
 Subject: Super Important Alert about Server! 
 Message: The server do-web-t-005 is unresponsive
+
+^ We know **which** server now, but what am I supposed to do about it?  
 
 ---
 
@@ -394,6 +424,14 @@ The server `do-web-t-005` is a production server on Digital Ocean. It is a missi
 
 ---
 
+# Best 
+
+Subject: Super Important Alert about Server! 
+Message: The server do-web-t-005 is unresponsive. To resolve this **do** X
+
+
+---
+
 # Wrong people
 
 - Claims team 
@@ -414,11 +452,14 @@ The server `do-web-t-005` is a production server on Digital Ocean. It is a missi
 
 # Best
 
-- Important
 - Actionable
+- Important
 - Right People
 
-^ The importance and action are documented in our Knowledge Management System
+^ The best alerts are:
+- actionable with a VERB
+- have their importance / why documented in our KMS
+- are sent to the *right* people
 
 --- 
 
