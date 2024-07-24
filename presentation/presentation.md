@@ -193,9 +193,24 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 
 # Internal
 
-- Example here
+```
+-----Original Message-----
+From: misadmin 
+Sent: Monday, July 22, 2024 4:51 PM
+To: ETL Notifications 
+Subject: SQL Server Alert System: 'db-p-001 Alert - Sev 20 Error: Fatal Error in Current Process' occurred on \\path
 
-^ When too many alerts are created without context for what the errors are
+DATE/TIME:    7/22/2024 4:50:32 PM
+
+DESCRIPTION:    The prelogin packet used to open the connection is structurally invalid; the connection has been closed. Please contact the vendor of the client library. [CLIENT: IP Address]
+
+
+COMMENT:    (None)
+
+JOB RUN:    (None)
+```
+
+^ Sometimes you just get opted into Alerts and aren't notified
 
 ---
 
@@ -242,10 +257,59 @@ A culture that **accepts** error notifications and **ignores** them, encouraging
 
 # Question 3
 
-- The fangledorn is klapfachta
+```
+-----Original Message-----
+From: misadmin 
+Sent: Monday, July 22, 2024 4:51 PM
+To: ETL Notifications 
+Subject: SQL Server Alert System: 'db-p-001 Alert - Sev 20 Error: Fatal Error in Current Process' occurred on \\path
 
-^ the example should show this ridiculous message and then 'zoom' out to show that it's sent to a distribution list, and then zoom out to show that the distribution list includes all of the developers 
+DATE/TIME:    7/22/2024 4:50:32 PM
+
+DESCRIPTION:    The prelogin packet used to open the connection is structurally invalid; the connection has been closed. Please contact the vendor of the client library. [CLIENT: IP Address]
+
+
+COMMENT:    (None)
+
+JOB RUN:    (None)
+```
+
 Do you know why you receive alerts or errors? 
+
+---
+
+# Question 3a
+
+
+```
+We received this error message and have no clue what process kicked it off, what failed, or what to do about it.
+```
+
+^ We asked what the alert was ... 
+
+
+---
+# Question 3b
+
+
+```
+a process was running last night that caused errors like this on several servers. It was scanning for vulnerabilities. Sorry for the inconvenience.
+```
+
+^ ... and received a response
+
+
+---
+
+# Question 3d
+
+
+```
+Please remove ETL-Notifications from this email alert since it is not related to anything we do and there is nothing we can do to resolve.
+```
+
+^ ... then, having the neccesary information and detemrining that it isn't anything we could do anything about, asked to be removed from the alert
+
 
 ---
 
@@ -460,6 +524,14 @@ Message: The server do-web-t-005 is unresponsive. To resolve this **do** X
 - actionable with a VERB
 - have their importance / why documented in our KMS
 - are sent to the *right* people
+
+---
+
+# Venn Diagram
+
+![inline](../images/chart.jpeg)
+
+^ notes: need more here
 
 --- 
 
